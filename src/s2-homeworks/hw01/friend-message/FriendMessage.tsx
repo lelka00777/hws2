@@ -17,7 +17,7 @@ const FriendMessage = (props: FriendMessageProps) => {
                 <img
                     id={'hw1-friend-avatar-' + props.message.id}
                     // создаёт студент
-
+                    src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlqdI-G4-NgJLvdKf6B0-wbKviD3xzJNhcMg&usqp=CAU'
                     //
                 />
                 <div className={s.friendText}>
@@ -25,8 +25,8 @@ const FriendMessage = (props: FriendMessageProps) => {
                         id={'hw1-friend-name-' + props.message.id}
                         className={s.friendName}
                     >
-                        {/*создаёт студент*/}
-
+                            {/*создаёт студент*/}
+                            Alice
                         {/**/}
                     </div>
                     <pre
@@ -34,7 +34,7 @@ const FriendMessage = (props: FriendMessageProps) => {
                         className={s.friendMessageText}
                     >
                         {/*создаёт студент*/}
-
+                        Hello, how are you, what did you do yesterday?
                         {/**/}
                     </pre>
                    
@@ -45,7 +45,7 @@ const FriendMessage = (props: FriendMessageProps) => {
                 className={s.friendTime}
             >
                 {/*создаёт студент*/}
-
+                  23:00
                 {/**/}
             </div>
         </div>

@@ -14,19 +14,21 @@ const Message = (props: MessagePropsType) => {
             <div className={s.imageAndText}>
                 <img
                     id={'hw1-avatar-' + props.message.id}
-                    // создаёт студент
+                    src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv5RKiPIpiQuSLgSB_WCKWHgB_aWpozzvvnw&usqp=CAU'
 
                     //
                 />
                 <div className={s.text}>
                     <div id={'hw1-name-' + props.message.id} className={s.name}>
+                       
+                      Jon
                         {/*создаёт студент*/}
 
                         {/**/}
                     </div>
                     <pre id={'hw1-text-' + props.message.id} className={s.messageText}>
                         {/*создаёт студент*/}
-
+                        Hello, she didn’t do anything and rested all day, how are you?
                         {/**/}
                     </pre>
                    
@@ -34,6 +36,7 @@ const Message = (props: MessagePropsType) => {
             </div>
             <div id={'hw1-time-' + props.message.id} className={s.time}>
                 {/*создаёт студент*/}
+                22:30
 
                 {/**/}
             </div>

@@ -7,7 +7,8 @@
 }
 
 .friendImageAndText img {
-
+    border-radius: 50%;
+    box-shadow: 0 0 7px #666; 
 }
 
 .friendText {
@@ -19,13 +20,14 @@
 }
 
 .friendName {
-
+    color: black;
 }
 
 .friendMessageText {
-
+    color: rgb(238, 174, 232);
+     box-shadow: 0 0 7px #666; 
 }
 
 .friendTime {
-
+    color:rgb(9, 255, 0)
 }
