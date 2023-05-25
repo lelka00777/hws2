@@ -35,6 +35,7 @@ const FriendMessage = (props: FriendMessageProps) => {
                     >
                         {/*создаёт студент*/}
                         Hello, how are you, what did you do yesterday?
+                      
                         {/**/}
                     </pre>
                    
